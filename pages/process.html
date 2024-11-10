@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quá trình thực hiện</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-sm navbar-light fixed-top bg-primary-subtle"
+      >
+        <div class="container">
+          <a class="navbar-brand text-uppercase fw-bold" href="home.html">
+            <i class="bi bi-water"></i>
+            AW Report</a
+          >
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="home.html" aria-current="page"
+                  >Trang chủ
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Dự án</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="process.html"
+                    ><i class="bi bi-calendar-check"></i> Quá trình</a
+                  >
+                  <a class="dropdown-item" href="home.html#features">
+                    <i class="bi bi-gear-fill"></i> Tính năng</a
+                  >
+                  <a class="dropdown-item" href="build_steps.html">
+                    <i class="bi bi-hammer"></i> Cách lắp đặt</a
+                  >
+                  <a class="dropdown-item" href="code.html">
+                    <i class="bi bi-braces"></i> Code</a
+                  >
+                </div>
+              </li>
+            </ul>
+            <h5 class="fw-light my-2 my-lg-0">Phiên bản 2.3</h5>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="project-status">
+        <div class="container py-4 my-5 border-bottom">
+          <h1 class="display-5 fw-bold text-decoration-underline">
+            Tiến độ dự án
+          </h1>
+        </div>
+        <div class="list-group w-100 mx-5">
+          <label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span>
+              Hoàn thành toàn bộ hệ thống
+              <small class="d-block text-body-secondary"
+                >Hệ thống máy bơm đã được test</small
+              >
+            </span>
+          </label>
+          <label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span> Hoàn thành việc lập trình bo mạch </span>
+          </label>
+          <label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span>
+              Cập nhật code
+              <small class="d-block text-body-secondary"
+                >Phiên bản 1.0 → Phiên bản 2.3
+              </small>
+            </span>
+          </label>
+          <label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span>
+              Thêm cảm biến DHT11
+              <small class="d-block text-body-secondary"
+                >Cảm biến nhiệt độ và độ ẩm môi trường</small
+              >
+            </span>
+          </label>
+          <label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span>
+              Cập nhật bài báo cáo
+              <small class="d-block text-body-secondary"
+                >Thêm các bước lắp đặt sản phẩm, tính năng và trang code</small
+              >
+            </span>
+          </label>
+        </div>
+      </section>
+      <section id="roles">
+        <div class="container py-4 my-5 border-bottom">
+          <h1 class="display-5 fw-bold text-decoration-underline">
+            Phân chia công việc
+          </h1>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mx-5">
+          <div class="col-lg-4">
+            <div style="clip-path: circle(25% at 25% 50%)">
+              <img
+                src="https://lh3.googleusercontent.com/gmtzplAZIfSSIMUVKk9JRpQUhNDazgWty8llIJ9OtN7wS-2WBn93V30kGAVGwkp7EDrJgsV-SS_7ZHq7ZadS_kw=w1280"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <h2 class="fw-normal mb-4">Bảo Gia</h2>
+            <p>
+              Thực hiện chính việc lập trình, tìm hiểu cách chống nhiễu cho bo
+              mạch và viết báo cáo.
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div
+              class="d-flex justify-content-center mt-5 mb-4"
+              style="display: flex; max-width: 150px; max-height: 150px"
+            >
+              <img
+                src="../assets/isthatroland.jpg"
+                alt=""
+                srcset=""
+                style="
+                  display: block;
+                  max-width: 150px;
+                  max-height: 150px;
+                  border-radius: 50%;
+                "
+              />
+            </div>
+            <h2 class="fw-normal mb-4">Anh Khoa</h2>
+            <p>Hỗ trợ về mặt linh kiện và lập trình</p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div style="clip-path: circle(25% at 30% 50%)">
+              <img src="../assets/Default_pfp.png" alt="" srcset="" />
+            </div>
+            <h2 class="fw-normal mb-4">Thanh Thảo</h2>
+            <p>Xử lí phần bo mạch</p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+      </section>
+      <section id="what-we-learned">
+        <div class="container py-4 my-5 border-bottom">
+          <h1 class="display-5 fw-bold text-decoration-underline">
+            Những gì đã học được
+          </h1>
+        </div>
+        <div class="list-group w-100 mx-5">
+          <label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span>
+              Cách sử dụng các chân cắm
+              <small class="d-block text-body-secondary"
+                >Phân biệt Analog và Digital</small
+              >
+            </span>
+          </label>
+          <label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span> Cách thiết lập Arduino IDE và Driver </span> </label
+          ><label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span> Cách sử dụng các thư viện bổ sung </span> </label
+          ><label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span> Cách đọc cảm biến và sử dụng relay </span> </label
+          ><label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span>
+              Cách đọc thông tin ghi trên linh kiện
+              <small class="d-block text-body-secondary"
+                >Mua nhầm relay 12V -_-</small
+              >
+            </span> </label
+          ><label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span> Cách sử dụng biến trở </span> </label
+          ><label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span> Cách sử dụng màn hình LCD 1602 + I2C </span>
+          </label>
+          <label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span> Cách sử dụng cảm biến DHT11. </span>
+          </label>
+          <label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span> Cách hệ thống liên tục làm việc </span> </label
+          ><label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span>
+              Cách chống nhiễu cho hệ thống
+              <small class="d-block text-body-secondary"
+                >Kết hợp tụ điện và tụ hóa</small
+              >
+            </span> </label
+          ><label class="list-group-item d-flex gap-2">
+            <input
+              class="form-check-input flex-shrink-0"
+              type="checkbox"
+              value=""
+              checked=""
+              disabled
+            />
+            <span>
+              Cách sử dụng breadboard
+              <small class="d-block text-body-secondary"
+                >Kết nối hệ thống một cách logic hơn</small
+              >
+            </span>
+          </label>
+        </div>
+      </section>
+      <section id="bumps-and-mistakes">
+        <div class="container py-4 my-5 border-bottom">
+          <h1 class="display-5 fw-bold text-decoration-underline">
+            Các vấn đề gặp phải
+          </h1>
+        </div>
+        <div class="row align-items-md-stretch mx-5">
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-bg-dark rounded-3">
+              <h2 class="mb-4">
+                <i class="bi bi-stopwatch"></i>
+                Thời gian
+              </h2>
+              <p>
+                Dự án được thực hiện trong thời gian kiểm tra giữa kì 1, nên mặt
+                thời gian bị hạn chế khá lớn. Tuy nhiên, sản phẩm vẫn được hoàn
+                thiện đúng thời hạn.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+              <h2 class="mb-4">
+                <i class="bi bi-bug"></i>
+                Nhiễu bo mạch
+              </h2>
+              <p>
+                Vấn đề chính của bo mạch này là lỗi nhiễu xung điện do motor bơm
+                nước 5V phát ra. Thành viên đã phải mất 3 ngày để tìm ra được
+                hướng giải quyết.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+        >
+          <div class="col mb-3">
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            >
+              <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <p class="text-body-secondary">
+              Website by Gary Nolanson, released under BSD 3 Clause Clear
+              License. Made using Bootstrap 5.
+            </p>
+          </div>
+
+          <div class="col mb-3"></div>
+
+          <div class="col mb-3"></div>
+          <div class="col mb-3">
+            <h5>Điều hướng</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="home.html" class="nav-link p-0 text-body-secondary"
+                  >Trang chủ</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="process.html" class="nav-link p-0 text-body-secondary"
+                  >Quá trình</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="build_steps.html"
+                  class="nav-link p-0 text-body-secondary"
+                  >Cách lắp đặt</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="code.html" class="nav-link p-0 text-body-secondary"
+                  >Code</a
+                >
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
